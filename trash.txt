@@ -1,0 +1,46 @@
+const Net = require('net'),
+  NetKeepAlive = require('net-keepalive')
+
+
+const express = require('express')
+const app = express();
+const port = 3000
+
+app.get('/', (req, res) => res.send('【 ⭕✘-ᴘᴀɪɴ 】 is Alive!'))
+
+app.listen(port, () =>{
+  console.log(`【 ⭕✘-ᴘᴀɪɴ 】 is listening to http://localhost:${port}`)});
+
+
+
+// Create a TCP Server
+const srv = Net.createServer((s) => {
+  console.log('Connected %j', s.address())
+  // Doesn't matter what it does
+  s.pipe(s)
+})
+
+// Start on some port
+srv.listen(1337, () => {
+  console.log('Listening on %j', srv.address())
+})
+
+// Connect to that server
+const s = Net.createConnection({ port: 1337 }, () => {
+  console.log('Connected to %j', s.address())
+
+  //IMPORTANT: KeepAlive must be enabled for this to work
+  s.setKeepAlive(true, 1000)
+
+  // Set TCP_KEEPINTVL for this specific socket
+  NetKeepAlive.setKeepAliveInterval(s, 1000)
+
+  // Get TCP_KEEPINTVL for this specific socket
+  NetKeepAlive.getKeepAliveInterval(s) // 1000
+
+  // Set TCP_KEEPCNT for this specific socket
+  NetKeepAlive.setKeepAliveProbes(s, 1)
+
+  // Get TCP_KEEPCNT for this specific socket
+  NetKeepAlive.getKeepAliveProbes(s) // 1
+})
