@@ -129,7 +129,7 @@ client.on(`message`, async (message) => {
       .addField("• Important Links", `**[Invite Link](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot)\`|\`[Support Server](https://discord.gg/RNcbXMGBJh)\`|\`[Insta](https://www.instagram.com/akt_pain69/)\**`)
 
 
-      .addField("• Invite To Server", `**[【💔 ✘ ᴘᴀɪɴ 】]( https://discord.com/api/oauth2/authorize?client_id=956916600290832444&permissions=8&scope=bot )\`|\`[【⭕ ✘ ᴘᴀɪɴ 】](https://discord.com/api/oauth2/authorize?client_id=967514923229933588&permissions=8&scope=bot)\`|\`[【❌ ✘ ᴘᴀɪɴ 】](https://discord.com/api/oauth2/authorize?client_id=968257236013056122&permissions=8&scope=bot)\**`)
+      .addField("• Invite To Server", `**[【💔 ✘ ᴘᴀɪɴ 】]( https://discord.com/api/oauth2/authorize?client_id=968792641137430538&permissions=8&scope=bot )\`|\`[【⭕ ✘ ᴘᴀɪɴ 】](https://discord.com/api/oauth2/authorize?client_id=967514923229933588&permissions=8&scope=bot)\`|\`[【❌ ✘ ᴘᴀɪɴ 】](https://discord.com/api/oauth2/authorize?client_id=968257236013056122&permissions=8&scope=bot)\**`)
 
       
       .addField("Still confused ?",`>> Use \`${PREFIX}help\` For more information about Commands`)
