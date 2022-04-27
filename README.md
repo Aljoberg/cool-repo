@@ -20,7 +20,7 @@ config.json
 
 ```json
 {
-  "PREFIX": "+",
+  "PREFIX": "%",
   "approveemoji": "EMOJIID",
   "denyemoji": "EMOJIID",
   "erroremoji": "EMOJIID"
