@@ -14,6 +14,8 @@ module.exports = {
 
     //react with approve emoji
     message.react("✅");
+       //delete the Command
+    message.delete({ timeout: 300 })
     
      
       const choice1 = args.join(" ").split("/")[0]
