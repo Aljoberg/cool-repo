@@ -14,6 +14,8 @@ module.exports = {
   execute(message, args, client) {
     //react with approve emoji
     message.react("✅");
+     //delete the Command
+    message.delete({ timeout: 300 })
     //send the Ping embed
          message.reply(new MessageEmbed()
     .setColor("#F0EAD6")
