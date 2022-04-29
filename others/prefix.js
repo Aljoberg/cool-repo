@@ -18,9 +18,10 @@ module.exports = {
 
     let prefix = await db.get(`prefix_${message.guild.id}`)
     if(prefix === null) prefix = PREFIX;
-
-    //react with approve emoji
+//react with approve emoji
     message.react("✅");
+     //delete the Command
+    message.delete({ timeout: 300 })
     
 
     if(!args[0]) return message.channel.send(new MessageEmbed()
