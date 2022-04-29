@@ -12,6 +12,10 @@ module.exports = {
   cooldown: 3,
   edesc: "Type help to get a short preview of all Commands, Type help <COMMANDNAME> to get extended information about this one command!",
   execute(message,args,client) {
+    //react with approve emoji
+    message.react("✅");
+     //delete the Command
+    message.delete({ timeout: 300 })
      
     let commands = message.client.commands.array();
  
