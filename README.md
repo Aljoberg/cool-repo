@@ -32,8 +32,10 @@ standard emojis will be awailable for easy usages!
 "**The bot will auti install **`--save -g google-it`,` weather-js`"
 ```
 ```json
-**Manually Install rest of the packages with **`npm install`**    -->   **`npm install node.js @discordjs/opus
-discord.js ffmpeg-static figlet lyrics-finder string-progressbar ytdl-core discord-ytdl-core youtube-sr`**
+{
+"Manually Install rest of the packages with": npm install node.js @discordjs/opus
+discord.js ffmpeg-static figlet lyrics-finder string-progressbar ytdl-core discord-ytdl-core youtube-sr
+}
 ```
 
 ```
