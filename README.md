@@ -29,24 +29,25 @@ standard emojis will be awailable for easy usages!
 ```
 
 ```json
-"**The bot will auti install **`--save -g google-it`,` weather-js`"
+"The bot will auti install --save -g google-it , weather-js"
 ```
 ```json
-{
-"Manually Install rest of the packages with": npm install node.js @discordjs/opus
-discord.js ffmpeg-static figlet lyrics-finder string-progressbar ytdl-core discord-ytdl-core youtube-sr
-}
-```
+
+"Manually Install rest of the packages with": 
+npm install node.js @discordjs/opus discord.js ffmpeg-static figlet 
+lyrics-finder string-progressbar ytdl-core discord-ytdl-core youtube-sr
 
 ```
-** Enter token in secrets **`token`**
+
+```json
+"Enter token in secrets": "token"
 ```
  
-```
-** start the bot with **`node index.js`**
+```json
+"start the bot with": "node index.js"
 ```
 
-```
+```js
 #### Commands:
 
 
