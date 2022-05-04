@@ -26,9 +26,7 @@ config.json
 
 It is important that you fill in every item of the JSON FILE! every emoji used in this BOT is a custom emoji, the emojis are listed down below as images, which you can download and upload to your server to use them. NOTE: you gotta change emoji.id to emoji.name if you use discord / unicode emojis! Soon a new Repo with standard emojis will be awailable for easy usages!
 
-** Install all of the packages with **`npm install`**    -->   **`npm install node.js @discordjs/opus discord.js ffmpeg-static figlet lyrics-finder string-progressbar ytdl-core discord-ytdl-core youtube-sr`**
-
-** Also install these modules if need arises ** `npm install --save -g google-it `, `npm install weather-js`
+** Install all of the packages with **`npm install`**    -->   **`npm install node.js @discordjs/opus discord.js ffmpeg-static figlet lyrics-finder string-progressbar ytdl-core discord-ytdl-core weather-js youtube-sr --save -g google-it`**
 
 ** Enter token in secrets **`token`**
  
