@@ -28,6 +28,8 @@ It is important that you fill in every item of the JSON FILE! every emoji used i
 
 ** Install all of the packages with **`npm install`**    -->   **`npm install node.js @discordjs/opus discord.js ffmpeg-static figlet lyrics-finder string-progressbar ytdl-core discord-ytdl-core youtube-sr`**
 
+** Also install these modules if need arises ** `npm install --save -g google-it `, `npm install weather-js`
+
 ** Enter token in secrets **`token`**
  
 ** start the bot with **`node index.js`**
