@@ -29,7 +29,7 @@ standard emojis will be awailable for easy usages!
 ```
 
 ```json
-"The bot will auti install --save -g google-it , weather-js"
+"The bot will auto install --save -g google-it , weather-js"
 ```
 ```json
 
