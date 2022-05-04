@@ -62,6 +62,7 @@ client.on(`ready`, () => {
     console.log(`══════════════════════════════════════════════════════════════════`);
     console.log("【 ⭕✘-ᴘᴀɪɴ 】Is Online And Fully Functional")
     console.log(`══════════════════════════════════════════════════════════════════`);
+    console.log(`[Bot is online | Node: ${process.version} | Discord.js: ${Discord.version}]\nConnected as: ${client.user.username} (ID: ${client.user.id})`);
   })
 
 });
