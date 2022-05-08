@@ -1,6 +1,5 @@
 const { Client, Collection, MessageEmbed } = require(`discord.js`);
 const googleIt = require('google-it')
-const Discord = require(`discord.js`);
 const {
   PREFIX,
   approveemoji,
