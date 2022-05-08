@@ -23,6 +23,7 @@
     "lyrics-finder": "^21.7.0",
     "net-keepalive": "^3.0.0",
     "node-opus": "^0.3.3",
+    "node-fetch": "^2.6.7",
     "node.js": "^0.0.1-security",
     "opusscript": "0.0.8",
     "quick.db": "^7.1.3",
