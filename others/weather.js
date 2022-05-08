@@ -1,6 +1,5 @@
 const { Client, Collection, MessageEmbed } = require(`discord.js`);
 const weather = require(`weather-js`);
-const Discord = require(`discord.js`);
 const {
   PREFIX,
   approveemoji,
