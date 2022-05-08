@@ -28,9 +28,16 @@ NOTE: you gotta change emoji.id to emoji.name if you use discord / unicode emoji
 standard emojis will be awailable for easy usages!
 ```
 
-```json"The bot will auto install --save -g google-it , weather-js"```
 
-```json"Manually Install rest of the packages with":npm install node.js @discordjs/opus discord.js ffmpeg-static figlet lyrics-finder string-progressbar ytdl-core discord-ytdl-core youtube-sr```
+```json
+"The bot will auto install --save -g google-it , weather-js"
+```
+```json
+
+"Manually Install rest of the packages with": 
+npm install node.js @discordjs/opus discord.js ffmpeg-static figlet lyrics-finder string-progressbar ytdl-core discord-ytdl-core youtube-sr
+
+```
 
 
 ```json
